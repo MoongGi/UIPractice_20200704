@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:padding="10dp"
     android:orientation="vertical"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <TextView
@@ -87,9 +88,10 @@
         android:text="이용약관에 동의 합니다."/>
 
     <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/image_thejoeun_logo"/>
+        android:layout_width="250dp"
+        android:layout_height="160dp"
+        android:src="@drawable/image_thejoeun_logo"
+        android:scaleType="centerCrop"/>
 
 
     <Button
